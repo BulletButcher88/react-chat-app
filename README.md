@@ -1,3 +1,7 @@
+**Note: this app is only partly working. Socket.io npm is still requiring debugging!**
+
+suggestion to how to debug the error issue, please send me a message.
+
 
 ## Available Scripts
 
@@ -13,7 +17,3 @@ Then run ther server and react app
 ### `npm run react`
 
 
-
-**Note: this app is still requiring debugging!**
-
-If you have suggestion to what the issue is, please send me a message.

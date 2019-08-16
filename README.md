@@ -1,6 +1,5 @@
-**Note: this app is only partly working. Socket.io npm is still requiring debugging!**
+**Note: this app is only partly working. Socket.io is still requiring some debugging!**
 
-suggestion to how to debug the error issue, please send me a message.
 
 
 ## Available Scripts

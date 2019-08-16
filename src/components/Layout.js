@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import io from 'socket.io-client'
+import { USER_CONNECTED, LOGOUT } from '../Events'
 import LoginForm from "./LoginForm"
 import ChatContainer from './chat/ChatContainer'
-
-import { USER_CONNECTED, LOGOUT } from "../Events"
 
 
 export default class Layout extends Component {
@@ -24,6 +23,8 @@ export default class Layout extends Component {
   
   initSocket = ()=> {
     // socket connect
+    // const socket = io(socketUrl)
+
       const socket = io(this.state.socketURL)
       socket.on('connect', () => {
         console.log("Connected")

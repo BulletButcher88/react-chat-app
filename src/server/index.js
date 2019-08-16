@@ -11,4 +11,4 @@ app.listen(PORT, function(){
   console.log('listening on *:' + PORT);
 });
 
-module.exports = io
+module.exports.io = io

@@ -70,7 +70,7 @@ module.exports = function(socket){
 	})
 
 	socket.on(TYPING, ({chatId, isTyping})=>{
-		sendTypingFromUser(chatId, isTyping)
+		sendTypingToChat(chatId, isTyping)
 	})
 
 }
